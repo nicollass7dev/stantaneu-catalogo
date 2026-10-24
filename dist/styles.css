@@ -43,6 +43,9 @@ button { font: inherit; }
 
 .hero { min-height: 760px; height: 100svh; display: grid; grid-template-columns: minmax(470px, 1.08fr) minmax(380px, .92fr); gap: clamp(2rem, 4vw, 5rem); padding: 8rem clamp(1.5rem, 6vw, 6.5rem) 3rem; overflow: hidden; }
 .hero-copy { align-self: center; max-width: 720px; }
+.maker-signature { width: fit-content; margin-bottom: 1.7rem; }
+.maker-signature strong { display: flex; flex-direction: column; font-family: var(--serif); font-size: 2rem; font-weight: 600; line-height: .82; }
+.maker-signature small { display: block; margin-top: .7rem; color: var(--muted); font-size: .62rem; font-weight: 600; letter-spacing: .22em; text-transform: uppercase; }
 .eyebrow { margin: 0 0 1.2rem; color: var(--rose-deep); font-size: .7rem; font-weight: 600; letter-spacing: .2em; text-transform: uppercase; }
 h1, h2, h3, p { margin-top: 0; }
 h1, h2 { font-family: var(--serif); font-weight: 500; line-height: .98; }
@@ -191,6 +194,7 @@ td:last-child { color: var(--rose-deep); font-weight: 600; white-space: nowrap; 
   .brand { gap: .6rem; font-size: 1.3rem; }
   .brand-copy strong { font-size: 1.08rem; }
   .brand-copy small { font-size: .46rem; letter-spacing: .13em; }
+  .maker-signature strong { font-size: 1.8rem; }
   .hero { padding-inline: 1rem; }
   h1 { font-size: clamp(3.15rem, 15.5vw, 4rem); }
   .hero-actions { flex-direction: column; gap: 1.2rem; }.arch-small { width: 112px; height: 148px; right: -2%; }.product-art { min-height: 360px; }
