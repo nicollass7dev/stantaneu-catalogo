@@ -1,4 +1,4 @@
-# SPONTANEUOS — Catálogo Feminino
+# Samanta Zegóbia — Ateliê de Costura
 
 Catálogo estático, responsivo e acessível, criado para apresentar a coleção, preços, medidas e cuidados de forma clara e delicada.
 
